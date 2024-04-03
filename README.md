@@ -1,2 +1,2 @@
-# Cognorise
+# CognoriseInfotech
 Cognorise infotech internship
