@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .timer {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #countdown {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+  }
+  
+  .controls input[type="number"] {
+    width: 60px;
+    margin-right: 5px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .controls button:hover {
+    background-color: #0056b3;
+  }
+  
+  @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .timer h1 {
+    animation: fadeInOut 1.5s ease infinite;
+  }
+  
